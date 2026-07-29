@@ -1,0 +1,6 @@
+#Libraries needed
+
+chromadb
+fastapi
+sentence-transformers
+openai

@@ -1,0 +1,239 @@
+CAR MANUFACTURER AND VEHICLE KNOWLEDGE BASE
+
+Introduction:
+This document contains information about automobile manufacturers, vehicle models, specifications, pricing, and market positioning. The information is intended for automotive knowledge retrieval systems.
+
+--------------------------------------------------
+
+Manufacturer: Toyota
+
+Toyota is a Japanese automobile manufacturer known for reliability, fuel efficiency, and long-term durability. Toyota produces vehicles ranging from compact cars and sedans to SUVs, trucks, and hybrid vehicles.
+
+Headquarters:
+Toyota City, Aichi, Japan
+
+Popular Toyota Models:
+
+1. Toyota Camry
+Category: Sedan
+Engine Options: 2.5L 4-cylinder engine, hybrid option available
+Fuel Type: Gasoline and Hybrid
+Starting Price: $28,000
+Description:
+The Toyota Camry is a midsize sedan known for comfort, reliability, and excellent resale value. It is commonly used as a family vehicle and commuter car.
+
+2. Toyota Corolla
+Category: Compact Sedan
+Engine Options: 1.8L and 2.0L engines
+Fuel Type: Gasoline and Hybrid
+Starting Price: $23,000
+Description:
+The Toyota Corolla is one of the world's best-selling vehicles. It is popular because of its affordability, low maintenance costs, and fuel efficiency.
+
+3. Toyota RAV4
+Category: Compact SUV
+Engine Options: 2.5L engine, hybrid option available
+Fuel Type: Gasoline and Hybrid
+Starting Price: $31,000
+Description:
+The Toyota RAV4 is a compact SUV designed for families and outdoor activities. It provides good cargo space and reliability.
+
+
+--------------------------------------------------
+
+Manufacturer: Honda
+
+Honda is a Japanese automobile manufacturer recognized for efficient engines, practicality, and engineering quality.
+
+Headquarters:
+Tokyo, Japan
+
+Popular Honda Models:
+
+1. Honda Civic
+Category: Compact Car
+Engine Options: 2.0L 4-cylinder engine, turbocharged option
+Fuel Type: Gasoline
+Starting Price: $25,000
+Description:
+The Honda Civic is a compact car popular among young drivers and commuters. It offers good fuel economy, sporty handling, and affordable ownership.
+
+2. Honda Accord
+Category: Midsize Sedan
+Engine Options: Hybrid and turbocharged engines
+Fuel Type: Gasoline and Hybrid
+Starting Price: $28,500
+Description:
+The Honda Accord is a midsize sedan known for comfort, reliability, and advanced safety features.
+
+3. Honda CR-V
+Category: Compact SUV
+Engine Options: 1.5L turbo engine, hybrid option
+Fuel Type: Gasoline and Hybrid
+Starting Price: $32,000
+Description:
+The Honda CR-V is a family SUV with spacious seating, good fuel economy, and practical features.
+
+
+--------------------------------------------------
+
+Manufacturer: Ford
+
+Ford is an American automobile manufacturer famous for trucks, SUVs, and performance vehicles.
+
+Headquarters:
+Dearborn, Michigan, United States
+
+Popular Ford Models:
+
+1. Ford F-150
+Category: Pickup Truck
+Engine Options: V6, V8, and hybrid engines
+Fuel Type: Gasoline and Hybrid
+Starting Price: $38,000
+Description:
+The Ford F-150 is one of the most popular pickup trucks in North America. It is known for towing capability, durability, and work performance.
+
+2. Ford Mustang
+Category: Sports Car
+Engine Options: EcoBoost and V8 engines
+Fuel Type: Gasoline
+Starting Price: $32,000
+Description:
+The Ford Mustang is a performance vehicle famous for its sporty design and powerful engines.
+
+3. Ford Explorer
+Category: SUV
+Engine Options: Turbocharged engines
+Fuel Type: Gasoline
+Starting Price: $37,000
+Description:
+The Ford Explorer is a midsize SUV designed for families needing passenger space and capability.
+
+
+--------------------------------------------------
+
+Manufacturer: Tesla
+
+Tesla is an American electric vehicle manufacturer focused on electric cars, battery technology, and autonomous driving systems.
+
+Headquarters:
+Austin, Texas, United States
+
+Popular Tesla Models:
+
+1. Tesla Model 3
+Category: Electric Sedan
+Power Source: Battery Electric
+Starting Price: $39,000
+Description:
+The Tesla Model 3 is a compact electric sedan offering long driving range, advanced software features, and fast acceleration.
+
+2. Tesla Model Y
+Category: Electric SUV
+Power Source: Battery Electric
+Starting Price: $45,000
+Description:
+The Tesla Model Y is an electric compact SUV with flexible cargo space and advanced driver assistance features.
+
+3. Tesla Model S
+Category: Luxury Electric Sedan
+Power Source: Battery Electric
+Starting Price: $75,000
+Description:
+The Tesla Model S is a premium electric sedan focused on performance, technology, and long range.
+
+
+--------------------------------------------------
+
+Manufacturer: BMW
+
+BMW is a German luxury automobile manufacturer known for performance, driving experience, and premium vehicles.
+
+Headquarters:
+Munich, Germany
+
+Popular BMW Models:
+
+1. BMW 3 Series
+Category: Luxury Sedan
+Engine Options: Turbocharged gasoline engines
+Starting Price: $45,000
+Description:
+The BMW 3 Series is a luxury sports sedan known for handling, performance, and premium interior quality.
+
+2. BMW X5
+Category: Luxury SUV
+Engine Options: Gasoline, hybrid options
+Starting Price: $65,000
+Description:
+The BMW X5 is a midsize luxury SUV combining performance, comfort, and technology.
+
+
+--------------------------------------------------
+
+Manufacturer: Mercedes-Benz
+
+Mercedes-Benz is a German luxury vehicle manufacturer known for premium cars, advanced technology, and comfort.
+
+Headquarters:
+Stuttgart, Germany
+
+Popular Mercedes-Benz Models:
+
+1. Mercedes-Benz C-Class
+Category: Luxury Sedan
+Starting Price: $48,000
+Description:
+The C-Class is an entry-level luxury sedan offering premium materials, comfort, and modern technology.
+
+2. Mercedes-Benz GLE
+Category: Luxury SUV
+Starting Price: $65,000
+Description:
+The GLE is a midsize luxury SUV focused on comfort, safety, and luxury features.
+
+
+--------------------------------------------------
+
+PRICE COMPARISON SUMMARY:
+
+Affordable Vehicles:
+Toyota Corolla - $23,000
+Honda Civic - $25,000
+Toyota Camry - $28,000
+Honda Accord - $28,500
+
+Mid-Range Vehicles:
+Toyota RAV4 - $31,000
+Ford Mustang - $32,000
+Honda CR-V - $32,000
+Ford Explorer - $37,000
+Ford F-150 - $38,000
+Tesla Model 3 - $39,000
+
+Luxury Vehicles:
+BMW 3 Series - $45,000
+Tesla Model Y - $45,000
+Mercedes-Benz C-Class - $48,000
+BMW X5 - $65,000
+Mercedes-Benz GLE - $65,000
+Tesla Model S - $75,000
+
+
+COMMON QUESTIONS:
+
+Question: Which Toyota vehicle is best for families?
+Answer: The Toyota RAV4 is a popular family choice because it provides SUV space, reliability, and available hybrid efficiency.
+
+Question: Which cars are electric vehicles?
+Answer: Tesla Model 3, Tesla Model Y, and Tesla Model S are fully electric vehicles.
+
+Question: Which manufacturer is known for luxury cars?
+Answer: BMW and Mercedes-Benz are known for producing luxury vehicles with premium features.
+
+Question: Which vehicles are under $30,000?
+Answer: Toyota Corolla, Honda Civic, Toyota Camry, and Honda Accord are vehicles priced under $30,000.
+
+Question: Which manufacturer produces the F-150?
+Answer: Ford produces the F-150 pickup truck.
