@@ -1,4 +1,4 @@
-import math
+from readfile import TextAnalyzer
 
 def add_numbers():
     total = 0
@@ -32,6 +32,7 @@ def print_series(x):
         i+=1
 
 def string_reverse(x):
+    static_call()
     return x[::-1]
 
 def largest_number(x):
@@ -68,6 +69,12 @@ def print_odd_numbers(x):
             final_list.append(i)
     return final_list
 
+def static_call():
+    TextAnalyzer.random_no_gen()
+
+def sort_list(x):
+    return sorted(x, reverse=True)
+
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
@@ -82,6 +89,9 @@ if __name__ == '__main__':
      7 to remove duplicates
      8 for word statistics
      9 to print odd numbers
+     10 WC using class
+     11 check cool in string
+     12 sort list
      """)
     if inputval == "1":
         print(add_numbers())
@@ -101,6 +111,14 @@ if __name__ == '__main__':
         word_statistics(input("Enter the string"))
     elif inputval == "9":
         print(print_odd_numbers(input("Enter the string")))
+    elif inputval == "10":
+        obj = TextAnalyzer(input("Enter the string"))
+        print(obj.word_count())
+    elif inputval == "11":
+        obj = TextAnalyzer(input("Enter the string"))
+        print(obj.check_string_in_stmt())
+    elif inputval == "12":
+        print(sort_list([4,6,7,7,8,8,5,4,3]))
     else:
         print("Invalid input")
 
