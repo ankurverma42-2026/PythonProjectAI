@@ -1,4 +1,4 @@
-from readfile import TextAnalyzer
+from utils.textmanipulation import TextAnalyzer
 
 def add_numbers():
     total = 0
