@@ -63,8 +63,8 @@ def word_statistics(x):
 
 def print_odd_numbers(x):
     final_list = []
-    for i in x:
-        if int(i)%2 == 1:
+    for i in x.split(','):
+        if i!="" and int(i)%2 == 1:
             final_list.append(i)
     return final_list
 
@@ -85,4 +85,23 @@ if __name__ == '__main__':
      """)
     if inputval == "1":
         print(add_numbers())
-    #elif inputval == "2":
+    elif inputval == "2":
+        print(subtract_numbers())
+    elif inputval == "3":
+        even_or_odd()
+    elif inputval == "4":
+        print_series(input("Enter the max number"))
+    elif inputval == "5":
+        print(string_reverse(input("Enter the string")))
+    elif inputval == "6":
+        print(largest_number([5,6,7,5,8,55,52,5,63,99]))
+    elif inputval == "7":
+        print(remove_duplicates(input("Enter the string")))
+    elif inputval == "8":
+        word_statistics(input("Enter the string"))
+    elif inputval == "9":
+        print(print_odd_numbers(input("Enter the string")))
+    else:
+        print("Invalid input")
+
+
