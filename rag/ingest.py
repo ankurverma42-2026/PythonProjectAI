@@ -41,7 +41,7 @@ def create_embeddings_store():
     for doc in documents:
         chunks = chunk_text(doc["text"])
         for chunk in chunks:
-            embedding = model.encode(chunk, convert_to_tensor=True).tolist()
+            embedding = model.encode(chunk).tolist()
             collection.add(ids=str(chunk_id), embeddings=[embedding], documents=[chunk],metadatas=[{"source": doc["filename"]}])
             chunk_id += 1
     print("Ingestion Completed")
