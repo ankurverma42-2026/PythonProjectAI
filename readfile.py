@@ -1,5 +1,9 @@
-from secrets import randbelow
 import random
+import json
+#Reg Exp
+import re
+
+
 
 class TextAnalyzer:
     def __init__(self,text):
@@ -18,3 +22,10 @@ class TextAnalyzer:
             return True
         else:
             return False
+
+    def python_2_json(self):
+        print(json.dumps(self.text))
+
+    def json_2_python(self):
+        x='{"name":"Ankur", "city":"Tampa"}'
+        return json.loads(x)

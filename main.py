@@ -75,11 +75,17 @@ def static_call():
 def sort_list(x):
     return sorted(x, reverse=True)
 
+def custom_sort(x):
+    return abs(x-10)
+
+def sort_list_custom(x):
+    x.sort(key=custom_sort)
+
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     MAX_SIZE=100
-    inputval= input("""Enter the option!
+    print("""Enter the option!
      1 For Addition
      2 for Subtraction
      3 to check Even or Odd
@@ -92,7 +98,9 @@ if __name__ == '__main__':
      10 WC using class
      11 check cool in string
      12 sort list
+     13 sort based on some function
      """)
+    inputval = input()
     if inputval == "1":
         print(add_numbers())
     elif inputval == "2":
@@ -119,6 +127,8 @@ if __name__ == '__main__':
         print(obj.check_string_in_stmt())
     elif inputval == "12":
         print(sort_list([4,6,7,7,8,8,5,4,3]))
+    elif inputval == "12":
+        print(sort_list_custom([4,6,7,7,8,8,5,4,3]))
     else:
         print("Invalid input")
 
