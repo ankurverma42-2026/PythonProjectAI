@@ -6,11 +6,10 @@ import os
 
 #Load embedding model
 DOCS_DIR = './data/'
-CHROMADB_DIR = './chromadb/'
+CHROMADB_DIR = 'chromadbdir/'
 COLLECTION_NAME = 'car_collection'
 COLLECTION_PATH = DOCS_DIR + COLLECTION_NAME
 
-print(DOCS_DIR)
 def load_text_files():
     documents = []
     print(DOCS_DIR)
@@ -39,7 +38,18 @@ def create_embeddings_store():
     print(f"Found {len(documents)} documents")
     model = SentenceTransformer("all-MiniLM-L6-v2")
     chroma_client=chromadb.PersistentClient(path=CHROMADB_DIR)
-    collection=chroma_client.get_or_create_collection(COLLECTION_NAME)
+    try:
+        chroma_client.delete_collection(
+            name=COLLECTION_NAME
+        )
+        print(f"Deleted existing collection: {COLLECTION_NAME}")
+
+    except Exception:
+        print("No existing collection found.")
+
+    collection = chroma_client.create_collection(name=COLLECTION_NAME)
+    print(f"Created new collection: {COLLECTION_NAME}")
+
     chunk_id=1
     for doc in documents:
         chunks = chunk_text(doc["text"])
