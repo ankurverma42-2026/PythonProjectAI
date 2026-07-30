@@ -24,32 +24,46 @@ client = OpenAI(api_key=API_KEY)
 
 def ask_openai(question: str, context: str) -> str:
     """
-    Generate an answer using OpenAI based on the retrieved context.
+    Generate an answer using OpenAI based on retrieved context.
+
+    Args:
+        question: User's question.
+        context: Relevant document chunks retrieved from ChromaDB.
+
+    Returns:
+        Generated answer from the LLM.
     """
 
-    response = client.chat.completions.create(
+    response = client.responses.create(
         model="gpt-4.1-mini",
-        temperature=0,
-        messages=[
-            {
-                "role": "system",
-                "content": (
-                    "You are a helpful assistant. "
-                    "Answer only using the provided context. "
-                    "If the answer is not present in the context, "
-                    "respond with: 'I don't know based on the provided information.'"
-                ),
-            },
-            {
-                "role": "user",
-                "content": (
-                    f"Context:\n{context}\n\n"
-                    f"Question:\n{question}"
-                ),
-            },
-        ],
+
+        # Instructions define the behavior of the assistant.
+        instructions="""
+You are a helpful assistant.
+
+Rules:
+- Answer only using the provided context.
+- Do not use outside knowledge.
+- If the answer is not present in the context, say:
+  "I don't know based on the provided information."
+""",
+
+        # Input contains the retrieved context and user question.
+        input=f"""
+Context:
+{context}
+
+Question:
+{question}
+"""
     )
-    return response.choices[0].message.content
+
+    answer = response.output_text
+
+    if not answer:
+        return "No response generated."
+
+    return answer
 
 def rag_answer(question: str) -> str:
     """
