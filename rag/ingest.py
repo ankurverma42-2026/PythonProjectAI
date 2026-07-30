@@ -12,14 +12,12 @@ COLLECTION_PATH = DOCS_DIR + COLLECTION_NAME
 
 def load_text_files():
     documents = []
-    print(DOCS_DIR)
     for file_name in os.listdir(DOCS_DIR):
         if file_name.endswith(".txt"):
             full_path = os.path.join(DOCS_DIR,file_name)
             with open(full_path, 'r',encoding="utf-8") as f:
                 text = f.read()
                 documents.append({"filename":file_name,"text":text})
-    print("LTF")
     return documents
 
 def chunk_text(text, chunk_size=500,overlap=100):
