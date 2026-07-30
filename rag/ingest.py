@@ -23,7 +23,6 @@ def load_text_files():
 def chunk_text(text, chunk_size=500,overlap=100):
     chunks = []
     start = 0
-    print("CT")
     while start < len(text):
         end= start + chunk_size
         chunk = text[start:end]
@@ -52,7 +51,7 @@ def create_embeddings_store():
     for doc in documents:
         chunks = chunk_text(doc["text"])
         for chunk in chunks:
-            embedding = model.encode(chunk).tolist()
+            embedding = model.encode(chunk,normalize_embeddings=True).tolist()
             collection.add(ids=[str(chunk_id)], embeddings=[embedding], documents=[chunk],metadatas=[{"source": doc["filename"]}])
             chunk_id += 1
     print(f"Total records added in collection: {collection.count()}")
