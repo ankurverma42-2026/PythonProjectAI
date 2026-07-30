@@ -1,12 +1,3 @@
-"""
-RAG Application
-
-1. Retrieve relevant documents from ChromaDB.
-2. Build context from retrieved documents.
-3. Send the context and question to OpenAI.
-4. Return the generated answer.
-"""
-
 import os
 from openai import OpenAI
 from query import search_vector_db, build_context
@@ -21,19 +12,7 @@ if not API_KEY:
 # Initialize the OpenAI client.
 client = OpenAI(api_key=API_KEY)
 
-
-def ask_openai(question: str, context: str) -> str:
-    """
-    Generate an answer using OpenAI based on retrieved context.
-
-    Args:
-        question: User's question.
-        context: Relevant document chunks retrieved from ChromaDB.
-
-    Returns:
-        Generated answer from the LLM.
-    """
-
+def ask_openai(question, context):
     response = client.responses.create(
         model="gpt-4.1-mini",
 
@@ -65,7 +44,7 @@ Question:
 
     return answer
 
-def rag_answer(question: str) -> str:
+def rag_answer(question):
     """
     Execute the complete RAG pipeline.
     """
