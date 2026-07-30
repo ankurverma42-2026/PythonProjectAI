@@ -1,16 +1,12 @@
 from openai import OpenAI
 import os
-
 from query import search_vector_db, build_context
 
-
 api_key = os.getenv("OPENAI_API_KEY")
-
 if not api_key:
     raise ValueError("OPENAI_API_KEY is not set")
 
 client = OpenAI(api_key=api_key)
-
 
 def ask_openai(question, context):
 
@@ -57,9 +53,7 @@ def rag_answer(question):
 
 
 if __name__ == "__main__":
-    print(os.getenv("OPENAI_API_KEY"))
     question = "Which car has the best fuel economy?"
-
     answer = rag_answer(question)
 
     print("\nAnswer:")
