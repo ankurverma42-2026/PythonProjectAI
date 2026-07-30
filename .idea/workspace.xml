@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="630c7134-c9aa-470c-a338-671008356f95" name="Changes" comment="RAG inital ingestion">
-      <change beforePath="$PROJECT_DIR$/rag/ask.py" beforeDir="false" afterPath="$PROJECT_DIR$/rag/ask.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag/ask.py" beforeDir="false" afterPath="$PROJECT_DIR$/rag/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,60 +44,60 @@
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000000120282333" />
-      <entry key="S5" value="1.0006793299118857" />
-      <entry key="S10" value="1.0260639587849023" />
-      <entry key="S30" value="1.299528891216095" />
-      <entry key="S60" value="1.7081948042081634" />
-      <entry key="M2" value="3.0583067330201446" />
-      <entry key="M5" value="8.304790018614225" />
-      <entry key="M10" value="18.028056697184102" />
-      <entry key="M15" value="26.76705679834614" />
-      <entry key="M30" value="47.10248616112722" />
-      <entry key="H1" value="71.59091998967003" />
-      <entry key="H2" value="94.31191535528241" />
-      <entry key="H4" value="123.90492492665224" />
-      <entry key="D1" value="584.3411480441625" />
-      <entry key="W1" value="1060.2948771797533" />
+      <entry key="MS500" value="1.000000852228403" />
+      <entry key="S2" value="1.0510806812882396" />
+      <entry key="S5" value="1.4613758449537084" />
+      <entry key="S10" value="1.9729107251321563" />
+      <entry key="S30" value="2.8004978284166984" />
+      <entry key="S60" value="3.3962239515383215" />
+      <entry key="M2" value="4.817167157890246" />
+      <entry key="M5" value="10.07930675830831" />
+      <entry key="M10" value="19.795982874587786" />
+      <entry key="M15" value="28.540792013015228" />
+      <entry key="M30" value="48.90607445286124" />
+      <entry key="H1" value="73.44255834190862" />
+      <entry key="H2" value="96.21446339888739" />
+      <entry key="H4" value="125.84105255741592" />
+      <entry key="D1" value="586.2912473338363" />
+      <entry key="W1" value="1062.2819514713208" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="3.0088542696374134E-150" />
-      <entry key="MS500" value="1.2464654088770714E-30" />
-      <entry key="S2" value="3.341335290919866E-8" />
-      <entry key="S5" value="0.0010223526641928802" />
-      <entry key="S10" value="0.0322505314280819" />
-      <entry key="S30" value="0.3826415592667498" />
-      <entry key="S60" value="0.8264780077470275" />
-      <entry key="M2" value="1.4190251550268491" />
-      <entry key="M5" value="2.860922499626432" />
-      <entry key="M10" value="4.79183396235513" />
-      <entry key="M15" value="6.479281796237039" />
-      <entry key="M30" value="11.093466764062242" />
-      <entry key="H1" value="17.563933135402262" />
-      <entry key="H2" value="23.89216114476281" />
-      <entry key="H4" value="30.326354561610295" />
-      <entry key="D1" value="98.95190230473838" />
-      <entry key="W1" value="171.9048352585232" />
+      <entry key="MS100" value="3.0756967553158384E-182" />
+      <entry key="MS500" value="4.984122442676867E-37" />
+      <entry key="S2" value="8.40228049815064E-10" />
+      <entry key="S5" value="2.3431040801516435E-4" />
+      <entry key="S10" value="0.01543946683695474" />
+      <entry key="S30" value="0.2993348475124842" />
+      <entry key="S60" value="0.7309941009492587" />
+      <entry key="M2" value="1.334539336815397" />
+      <entry key="M5" value="2.7915319788969213" />
+      <entry key="M10" value="4.7333652528471335" />
+      <entry key="M15" value="6.426468355119319" />
+      <entry key="M30" value="11.048162132559705" />
+      <entry key="H1" value="17.528031752324797" />
+      <entry key="H2" value="23.867730386671056" />
+      <entry key="H4" value="30.31084559773013" />
+      <entry key="D1" value="98.94346647056567" />
+      <entry key="W1" value="171.90274158092174" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9460576467255959" />
-      <entry key="MS500" value="0.9889709163809315" />
-      <entry key="S2" value="0.9972312846851331" />
-      <entry key="S5" value="1.0004215549933944" />
-      <entry key="S10" value="1.05490654363449" />
-      <entry key="S30" value="1.6704631278368978" />
-      <entry key="S60" value="2.5208763368085068" />
-      <entry key="M2" value="4.46056417125861" />
-      <entry key="M5" value="11.145723448134643" />
-      <entry key="M10" value="22.799310787411283" />
-      <entry key="M15" value="33.22591790922749" />
-      <entry key="M30" value="58.17653925119449" />
-      <entry key="H1" value="89.13865738024357" />
-      <entry key="H2" value="118.19273765926" />
-      <entry key="H4" value="154.22381982681867" />
-      <entry key="D1" value="683.2886087975037" />
-      <entry key="W1" value="1232.1986233914954" />
+      <entry key="MS100" value="0.9592641193252643" />
+      <entry key="MS500" value="0.9917175260491388" />
+      <entry key="S2" value="1.0481460459402578" />
+      <entry key="S5" value="1.4576400998012182" />
+      <entry key="S10" value="1.9833404349921029" />
+      <entry key="S30" value="3.0889252933830194" />
+      <entry key="S60" value="4.114036336296447" />
+      <entry key="M2" value="6.135418835333784" />
+      <entry key="M5" value="12.851119964347463" />
+      <entry key="M10" value="24.508910866587932" />
+      <entry key="M15" value="34.9469335252146" />
+      <entry key="M30" value="59.93486575158326" />
+      <entry key="H1" value="90.95440919765322" />
+      <entry key="H2" value="120.07085740225635" />
+      <entry key="H4" value="156.14443773792507" />
+      <entry key="D1" value="685.2302718695748" />
+      <entry key="W1" value="1234.1836039098491" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -138,57 +140,7 @@
       <recent name="C:\Users\verma\PycharmProjects\PythonProject\utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ask (1)">
-    <configuration name="ask (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rag" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rag/ask.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ask" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rag" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="C:\Users\verma\PycharmProjects\PythonProject\rag\ask.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration name="ingest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
@@ -239,6 +191,56 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rag" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="C:\Users\verma\PycharmProjects\PythonProject\rag\main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rag" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="C:\Users\verma\PycharmProjects\PythonProject\rag\main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ml" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
@@ -266,8 +268,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ask (1)" />
-        <item itemvalue="Python.ask" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.ingest" />
         <item itemvalue="Python.ml" />
         <item itemvalue="Python.main" />
@@ -289,7 +291,7 @@
       <option name="presentableId" value="Default" />
       <updated>1785273053190</updated>
       <workItem from="1785273100659" duration="54566000" />
-      <workItem from="1785439527482" duration="342000" />
+      <workItem from="1785439527482" duration="1567000" />
     </task>
     <task id="LOCAL-00001" summary="default code">
       <option name="closed" value="true" />
@@ -411,7 +413,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785439640615</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="RAG inital ingestion">
+      <option name="closed" value="true" />
+      <created>1785439876976</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1785439876976</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
