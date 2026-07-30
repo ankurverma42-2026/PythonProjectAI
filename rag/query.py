@@ -1,6 +1,5 @@
 #search and ask LLM
 import chromadb
-from chromadb.experimental.density_relevance import chroma_client
 from sentence_transformers import SentenceTransformer
 
 from rag.ingest import CHROMADB_DIR
@@ -15,5 +14,16 @@ def search_vector_db(questions,top_n=3):
     collection = chroma_client.get_collection(COLLECTION_NAME)
     results = collection.query(query_embeddings=[questions_embeddings],n_results=top_n)
     return results
+
+def build_context(results):
+    documents=results["documents"][0]
+    metadata=results["metadatas"][0]
+    context_parts=[]
+    for doc, meta in zip(documents, metadata):
+        context_parts.append(f"Source: {meta['source']}\n Content: {doc}")
+    return "\n\n".join(context_parts)
+
+
+
 
 
