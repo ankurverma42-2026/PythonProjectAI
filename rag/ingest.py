@@ -5,7 +5,7 @@ import chromadb
 import os
 import logging
 
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.INFO, filename=r"rag\ingest.log")
 #Load embedding model
 DOCS_DIR = './data/'
 CHROMADB_DIR = 'chromadbdir/'
