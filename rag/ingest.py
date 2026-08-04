@@ -32,6 +32,7 @@ def chunk_text(text, chunk_size=500,overlap=100):
         start = end-overlap
     return chunks
 
+
 def create_embeddings_store():
     documents = load_text_files()
     print(f"Found {len(documents)} documents")
