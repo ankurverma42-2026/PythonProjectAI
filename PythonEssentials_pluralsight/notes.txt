@@ -1,0 +1,4 @@
+OOP = Object-Oriented Programming
+JSON = JavaScript O Notation
+ML = Machine Learning
+AI=Artificial Intelligence

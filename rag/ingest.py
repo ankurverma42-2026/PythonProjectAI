@@ -3,7 +3,9 @@
 from sentence_transformers import SentenceTransformer
 import chromadb
 import os
+import logging
 
+logging.basicConfig(level=logging.INFO)
 #Load embedding model
 DOCS_DIR = './data/'
 CHROMADB_DIR = 'chromadbdir/'
@@ -33,6 +35,7 @@ def chunk_text(text, chunk_size=500,overlap=100):
 def create_embeddings_store():
     documents = load_text_files()
     print(f"Found {len(documents)} documents")
+    logging.info(f"Found {len(documents)} documents")
     model = SentenceTransformer("all-MiniLM-L6-v2")
     chroma_client=chromadb.PersistentClient(path=CHROMADB_DIR)
     try:
@@ -40,6 +43,7 @@ def create_embeddings_store():
             name=COLLECTION_NAME
         )
         print(f"Deleted existing collection: {COLLECTION_NAME}")
+        logging.info(f"Created new collection: {COLLECTION_NAME}")
 
     except Exception:
         print("No existing collection found.")

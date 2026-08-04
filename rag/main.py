@@ -1,5 +1,8 @@
 import os
 from openai import OpenAI
+from torch.cuda import temperature
+
+from mynumpy.main import model
 from query import search_vector_db, build_context
 
 
@@ -15,7 +18,8 @@ client = OpenAI(api_key=API_KEY)
 def ask_openai(question, context):
     response = client.responses.create(
         model="gpt-4.1-mini",
-
+#lower temperature is more deterministic, higher means more creative. New models don't support explicit defining temp.
+        temperature=0.5,
         # Instructions define the behavior of the assistant.
         instructions="""
 You are a helpful assistant.

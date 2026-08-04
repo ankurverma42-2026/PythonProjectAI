@@ -18,6 +18,11 @@ variance = numpy.var(speed)
 
 mymodel= numpy.poly1d(numpy.polyfit(x,y,2))
 myline = numpy.linspace(-50,100,100)
+plt.title("Simple Linear Regression")
 plt.plot(myline,mymodel(myline))
+plt.xlabel("x")
+plt.ylabel("y")
+plt.grid(True)
 plt.scatter(x,y)
+plt.legend
 plt.show()

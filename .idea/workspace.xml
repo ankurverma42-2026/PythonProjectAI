@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="630c7134-c9aa-470c-a338-671008356f95" name="Changes" comment="RAG inital ingestion">
+      <change afterPath="$PROJECT_DIR$/PythonEssentials_pluralsight/notes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mynumpy/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag/chromadbdir/chroma.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/rag/chromadbdir/chroma.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag/ingest.py" beforeDir="false" afterPath="$PROJECT_DIR$/rag/ingest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rag/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/rag/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rag/query.py" beforeDir="false" afterPath="$PROJECT_DIR$/rag/query.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonEssentials_pluralsight/foundation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/ml.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/ml.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jupyter Notebook" />
         <option value="Python Script" />
       </list>
     </option>
@@ -43,61 +50,61 @@
 }]]></component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="5.714546420307931E-158" />
-      <entry key="MS500" value="3.559560288296619E-32" />
-      <entry key="S2" value="1.373565657501952E-8" />
-      <entry key="S5" value="7.189992215291297E-4" />
-      <entry key="S10" value="0.028649950805515818" />
-      <entry key="S30" value="0.5548011961030671" />
-      <entry key="S60" value="1.6180691877414524" />
-      <entry key="M2" value="3.0236904472435855" />
-      <entry key="M5" value="4.5595508286304245" />
-      <entry key="M10" value="5.509895666312953" />
-      <entry key="M15" value="6.16919723596062" />
-      <entry key="M30" value="9.104777321963278" />
-      <entry key="H1" value="22.46406135638832" />
-      <entry key="H2" value="51.38059401929945" />
-      <entry key="H4" value="93.16224598313146" />
-      <entry key="D1" value="557.7852617079849" />
-      <entry key="W1" value="1062.7659587307767" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000000002707" />
+      <entry key="S2" value="1.000724565991314" />
+      <entry key="S5" value="1.062824624278677" />
+      <entry key="S10" value="1.3622167199065123" />
+      <entry key="S30" value="2.621578406771499" />
+      <entry key="S60" value="3.513065411405602" />
+      <entry key="M2" value="4.160140121950798" />
+      <entry key="M5" value="4.637316617140716" />
+      <entry key="M10" value="4.8138602158318236" />
+      <entry key="M15" value="4.874816449280887" />
+      <entry key="M30" value="4.945590924401515" />
+      <entry key="H1" value="5.472584338812755" />
+      <entry key="H2" value="9.159214111211856" />
+      <entry key="H4" value="18.08638318278762" />
+      <entry key="D1" value="161.4969020405977" />
+      <entry key="W1" value="1193.7971837581968" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0000000057141223" />
-      <entry key="S10" value="1.000091399034915" />
-      <entry key="S30" value="1.0680696121830155" />
-      <entry key="S60" value="1.3664819348529635" />
-      <entry key="M2" value="1.8546993648083754" />
-      <entry key="M5" value="2.470170054119371" />
-      <entry key="M10" value="3.2777458285506538" />
-      <entry key="M15" value="4.196437638751737" />
-      <entry key="M30" value="6.7135435613332834" />
-      <entry key="H1" value="11.733500267425411" />
-      <entry key="H2" value="20.333290217255442" />
-      <entry key="H4" value="30.886557277625368" />
-      <entry key="D1" value="104.10720537581214" />
-      <entry key="W1" value="182.17645398838067" />
+      <entry key="MS100" value="8.145000299123634E-29" />
+      <entry key="MS500" value="2.410894581704724E-6" />
+      <entry key="S2" value="0.039404385139977946" />
+      <entry key="S5" value="0.27429495640383755" />
+      <entry key="S10" value="0.5237317599724477" />
+      <entry key="S30" value="0.8060642072400593" />
+      <entry key="S60" value="0.8978107858786613" />
+      <entry key="M2" value="0.947528778390747" />
+      <entry key="M5" value="0.9786715503329998" />
+      <entry key="M10" value="0.9892782978632108" />
+      <entry key="M15" value="0.9928398399138996" />
+      <entry key="M30" value="0.9979579475104506" />
+      <entry key="H1" value="1.0884374216202788" />
+      <entry key="H2" value="1.7315138322859074" />
+      <entry key="H4" value="3.210152419562568" />
+      <entry key="D1" value="24.58996059122728" />
+      <entry key="W1" value="189.15798901206375" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.499359337904692E-23" />
-      <entry key="MS500" value="2.7238371932158722E-5" />
-      <entry key="S2" value="0.07224291915969688" />
-      <entry key="S5" value="0.34956060649286513" />
-      <entry key="S10" value="0.5935449666269493" />
-      <entry key="S30" value="1.2021045052561032" />
-      <entry key="S60" value="2.53690045409214" />
-      <entry key="M2" value="4.516971356568633" />
-      <entry key="M5" value="6.829621150631606" />
-      <entry key="M10" value="8.668848545876262" />
-      <entry key="M15" value="10.27704837015303" />
-      <entry key="M30" value="15.764276669552412" />
-      <entry key="H1" value="34.16385102838373" />
-      <entry key="H2" value="71.69226455825472" />
-      <entry key="H4" value="124.03513350415624" />
-      <entry key="D1" value="661.8868017977198" />
-      <entry key="W1" value="1244.9411153358203" />
+      <entry key="MS100" value="4.860851444701946E-11" />
+      <entry key="MS500" value="0.008656710273127987" />
+      <entry key="S2" value="0.3266360479625323" />
+      <entry key="S5" value="0.8796247943436661" />
+      <entry key="S10" value="1.5595464082823631" />
+      <entry key="S30" value="3.250550346374995" />
+      <entry key="S60" value="4.303880410853879" />
+      <entry key="M2" value="5.0480031336509485" />
+      <entry key="M5" value="5.5903764578748945" />
+      <entry key="M10" value="5.790016136962569" />
+      <entry key="M15" value="5.858835655998477" />
+      <entry key="M30" value="5.93909662365323" />
+      <entry key="H1" value="6.558635396611034" />
+      <entry key="H2" value="10.88897069816119" />
+      <entry key="H4" value="21.29498600323319" />
+      <entry key="D1" value="186.08531380509402" />
+      <entry key="W1" value="1382.953746639827" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -113,10 +120,14 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.ask (1).executor": "Run",
+    "Python.foundation.executor": "Run",
     "Python.ingest.executor": "Run",
+    "Python.main (1).executor": "Run",
     "Python.main.executor": "Run",
+    "Python.ml (1).executor": "Run",
     "Python.ml.executor": "Run",
     "Python.openai.executor": "Run",
+    "Python.robodog.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
@@ -131,7 +142,7 @@
     "node.js.selected.package.jshint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "vcs.Git",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
@@ -140,8 +151,8 @@
       <recent name="C:\Users\verma\PycharmProjects\PythonProject\utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ingest">
-    <configuration name="ingest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="foundation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -150,14 +161,14 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rag" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonEssentials_pluralsight" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rag/ingest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonEssentials_pluralsight/foundation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,7 +177,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -175,39 +186,14 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mynumpy" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rag" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="C:\Users\verma\PycharmProjects\PythonProject\rag\main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mynumpy/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -241,7 +227,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ml" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -250,14 +236,64 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rag" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="C:\Users\verma\PycharmProjects\PythonProject\utils\ml.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rag/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ml (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/ml.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="robodog" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonEssentials_pluralsight" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonEssentials_pluralsight/robodog.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -268,11 +304,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ingest" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.ml" />
-        <item itemvalue="Python.main" />
+        <item itemvalue="Python.foundation" />
+        <item itemvalue="Python.robodog" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.ml (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -291,7 +327,7 @@
       <option name="presentableId" value="Default" />
       <updated>1785273053190</updated>
       <workItem from="1785273100659" duration="54566000" />
-      <workItem from="1785439527482" duration="10055000" />
+      <workItem from="1785439527482" duration="40776000" />
     </task>
     <task id="LOCAL-00001" summary="default code">
       <option name="closed" value="true" />
@@ -477,7 +513,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785447086777</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="RAG inital ingestion">
+      <option name="closed" value="true" />
+      <created>1785450046569</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1785450046569</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,9 +560,13 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonProject$ingest.coverage" NAME="ingest Coverage Results" MODIFIED="1785443130894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rag" />
+    <SUITE FILE_PATH="coverage/PythonProject$robodog.coverage" NAME="robodog Coverage Results" MODIFIED="1785618249833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonEssentials_pluralsight" />
+    <SUITE FILE_PATH="coverage/PythonProject$ml__1_.coverage" NAME="ml (1) Coverage Results" MODIFIED="1785527533436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/PythonProject$foundation.coverage" NAME="foundation Coverage Results" MODIFIED="1785777585170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonEssentials_pluralsight" />
     <SUITE FILE_PATH="coverage/PythonProject$ml.coverage" NAME="ml Coverage Results" MODIFIED="1785359558301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$openai.coverage" NAME="openai Coverage Results" MODIFIED="1785438403658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rag" />
-    <SUITE FILE_PATH="coverage/PythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1785345000989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$ask__1_.coverage" NAME="ask (1) Coverage Results" MODIFIED="1785439542513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rag" />
+    <SUITE FILE_PATH="coverage/PythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1785792951486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rag" />
+    <SUITE FILE_PATH="coverage/PythonProject$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1785535473107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mynumpy" />
   </component>
 </project>
