@@ -1,12 +1,11 @@
 import os
 from openai import OpenAI
-from torch.cuda import temperature
-
-from mynumpy.main import model
+from dotenv import load_dotenv
 from query import search_vector_db, build_context
 
 
 # Read the OpenAI API key from the environment.
+load_dotenv()
 API_KEY = os.getenv("OPENAI_API_KEY")
 
 if not API_KEY:
@@ -21,7 +20,7 @@ def ask_openai(question, context):
 #lower temperature is more deterministic, higher means more creative. New models don't support explicit defining temp.
         temperature=0.5,
         # Instructions define the behavior of the assistant.
-        instructions="""
+        instructions="""   
 You are a helpful assistant.
 
 Rules:
