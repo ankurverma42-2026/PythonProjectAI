@@ -1,8 +1,9 @@
 import os
 from openai import OpenAI
 from dotenv import load_dotenv
-from query import search_vector_db, build_context
 
+from query import search_vector_db, build_context
+import ollama
 
 # Read the OpenAI API key from the environment.
 load_dotenv()
@@ -15,37 +16,42 @@ if not API_KEY:
 client = OpenAI(api_key=API_KEY)
 
 def ask_openai(question, context):
-    response = client.responses.create(
-        model="gpt-4.1-mini",
-#lower temperature is more deterministic, higher means more creative. New models don't support explicit defining temp.
-        temperature=0.5,
-        # Instructions define the behavior of the assistant.
-        instructions="""   
-You are a helpful assistant.
+   #Using Ollama
+   response = ollama.chat(
+       model="llama3.2",
+       messages=[
+           {
+               "role": "system",
+               "content": """
+   You are a helpful assistant.
 
-Rules:
-- Answer only using the provided context.
-- Do not use outside knowledge.
-- If the answer is not present in the context, say:
-  "I don't know based on the provided information."
-""",
+   Rules:
+   - Answer only using the provided context.
+   - Do not use outside knowledge.
+   - If the answer is not present in the context, say:
+     "I don't know based on the provided information."
+   """
+           },
+           {
+               "role": "user",
+               "content": f"""
+   Context:
+   {context}
 
-        # Input contains the retrieved context and user question.
-        input=f"""
-Context:
-{context}
+   Question:
+   {question}
+   """
+           }
+       ],
+       options={
+           "temperature": 0.5
+       }
+   )
+   answer = response["message"]["content"]
+   if not answer:
+       return "No response generated."
 
-Question:
-{question}
-"""
-    )
-
-    answer = response.output_text
-
-    if not answer:
-        return "No response generated."
-
-    return answer
+   return answer
 
 def rag_answer(question):
     """

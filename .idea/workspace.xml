@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="630c7134-c9aa-470c-a338-671008356f95" name="Changes" comment="RAG inital ingestion">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ragusingLangchain/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/playground.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/playground.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag/chromadbdir/chroma.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/rag/chromadbdir/chroma.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rag/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/rag/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ragusingLangchain/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ragusingLangchain/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,61 +46,61 @@
 }]]></component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="7.486377033192483E-163" />
-      <entry key="MS500" value="7.098050179096079E-33" />
-      <entry key="S2" value="2.001456767015739E-8" />
-      <entry key="S5" value="0.0016669804408511958" />
-      <entry key="S10" value="0.0818030986349861" />
-      <entry key="S30" value="1.318475608495575" />
-      <entry key="S60" value="2.773783313682309" />
-      <entry key="M2" value="4.064304068092769" />
-      <entry key="M5" value="5.129569479247184" />
-      <entry key="M10" value="5.546864592740603" />
-      <entry key="M15" value="5.693773030175284" />
-      <entry key="M30" value="5.84477807845699" />
-      <entry key="H1" value="5.9218913086931195" />
-      <entry key="H2" value="5.998237409348875" />
-      <entry key="H4" value="7.172648776523819" />
-      <entry key="D1" value="41.04190612090553" />
-      <entry key="W1" value="880.1369702493355" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000000000488" />
+      <entry key="S2" value="1.0005783571847855" />
+      <entry key="S5" value="1.0850161205074245" />
+      <entry key="S10" value="1.491895528057198" />
+      <entry key="S30" value="2.7407080112787527" />
+      <entry key="S60" value="3.9728445037512596" />
+      <entry key="M2" value="6.784544058841194" />
+      <entry key="M5" value="15.766191065071448" />
+      <entry key="M10" value="25.692155276194256" />
+      <entry key="M15" value="33.05006101948196" />
+      <entry key="M30" value="50.05092560618205" />
+      <entry key="H1" value="73.84889825248774" />
+      <entry key="H2" value="100.39549861848835" />
+      <entry key="H4" value="122.92126273620187" />
+      <entry key="D1" value="179.93905172956423" />
+      <entry key="W1" value="1016.4608493978291" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.000000000982422" />
-      <entry key="S5" value="1.000267728850997" />
-      <entry key="S10" value="1.0213063829535025" />
-      <entry key="S30" value="1.524218073321976" />
-      <entry key="S60" value="2.2377553211003116" />
-      <entry key="M2" value="2.9206766148093566" />
-      <entry key="M5" value="3.50792182381205" />
-      <entry key="M10" value="3.7425910513435032" />
-      <entry key="M15" value="3.825759732587885" />
-      <entry key="M30" value="3.911534693538272" />
-      <entry key="H1" value="3.9554283744207877" />
-      <entry key="H2" value="3.980458749603121" />
-      <entry key="H4" value="4.080928438400129" />
-      <entry key="D1" value="7.725501330481526" />
-      <entry key="W1" value="139.39045554701727" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="5.124405810268577E-92" />
+      <entry key="S2" value="1.504564736451269E-23" />
+      <entry key="S5" value="7.429581506261935E-10" />
+      <entry key="S10" value="2.7257260274281555E-5" />
+      <entry key="S30" value="0.030502062490967635" />
+      <entry key="S60" value="0.2380216262118383" />
+      <entry key="M2" value="1.2940353903457733" />
+      <entry key="M5" value="5.1438323959177055" />
+      <entry key="M10" value="8.943156571170196" />
+      <entry key="M15" value="11.229505714903777" />
+      <entry key="M30" value="15.354041808855772" />
+      <entry key="H1" value="20.99657311778753" />
+      <entry key="H2" value="28.256060806046932" />
+      <entry key="H4" value="34.87079136651685" />
+      <entry key="D1" value="46.38651021965955" />
+      <entry key="W1" value="178.42347194859875" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.726334915006219E-4" />
-      <entry key="MS500" value="0.1767766952966369" />
-      <entry key="S2" value="0.6484197927290296" />
-      <entry key="S5" value="0.8425473246571847" />
-      <entry key="S10" value="1.0113035889249378" />
-      <entry key="S30" value="2.756499006223586" />
-      <entry key="S60" value="4.933475839768777" />
-      <entry key="M2" value="6.930031622584013" />
-      <entry key="M5" value="8.610186027288217" />
-      <entry key="M10" value="9.27475345356341" />
-      <entry key="M15" value="9.509484476318988" />
-      <entry key="M30" value="9.751161647317218" />
-      <entry key="H1" value="9.874711687045055" />
-      <entry key="H2" value="9.977382616525556" />
-      <entry key="H4" value="11.252897419749912" />
-      <entry key="D1" value="48.76709932585629" />
-      <entry key="W1" value="1019.52638988675" />
+      <entry key="MS100" value="0.9265880618903709" />
+      <entry key="MS500" value="0.9848664428955984" />
+      <entry key="S2" value="0.9967207411279005" />
+      <entry key="S5" value="1.0755946479630205" />
+      <entry key="S10" value="1.4623050464730958" />
+      <entry key="S30" value="2.732646568809576" />
+      <entry key="S60" value="4.174268747926828" />
+      <entry key="M2" value="8.01314117540426" />
+      <entry key="M5" value="20.797929072474947" />
+      <entry key="M10" value="34.535653217227335" />
+      <entry key="M15" value="44.19712951538841" />
+      <entry key="M30" value="65.35144905150382" />
+      <entry key="H1" value="94.81254855167124" />
+      <entry key="H2" value="128.6318983549292" />
+      <entry key="H4" value="157.78088647631182" />
+      <entry key="D1" value="226.32325845322552" />
+      <entry key="W1" value="1194.8830027826764" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -119,6 +119,7 @@
     "Python.foundation.executor": "Run",
     "Python.ingest.executor": "Run",
     "Python.main (1).executor": "Run",
+    "Python.main (2).executor": "Run",
     "Python.main.executor": "Run",
     "Python.ml (1).executor": "Run",
     "Python.ml.executor": "Run",
@@ -198,6 +199,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ragusingLangchain" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ragusingLangchain/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
@@ -248,31 +274,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ml (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/ml.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="robodog" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
@@ -301,10 +302,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.foundation" />
         <item itemvalue="Python.robodog" />
         <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.ml (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -323,7 +324,7 @@
       <option name="presentableId" value="Default" />
       <updated>1785273053190</updated>
       <workItem from="1785273100659" duration="54566000" />
-      <workItem from="1785439527482" duration="47503000" />
+      <workItem from="1785439527482" duration="53824000" />
     </task>
     <task id="LOCAL-00001" summary="default code">
       <option name="closed" value="true" />
@@ -541,7 +542,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785813694437</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="RAG inital ingestion">
+      <option name="closed" value="true" />
+      <created>1786122189431</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1786122189431</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -581,12 +590,13 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonProject$ingest.coverage" NAME="ingest Coverage Results" MODIFIED="1785443130894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rag" />
     <SUITE FILE_PATH="coverage/PythonProject$robodog.coverage" NAME="robodog Coverage Results" MODIFIED="1785618249833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonEssentials_pluralsight" />
+    <SUITE FILE_PATH="coverage/PythonProject$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1786130195791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ragusingLangchain" />
     <SUITE FILE_PATH="coverage/PythonProject$ml__1_.coverage" NAME="ml (1) Coverage Results" MODIFIED="1785527533436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/PythonProject$foundation.coverage" NAME="foundation Coverage Results" MODIFIED="1785777585170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonEssentials_pluralsight" />
     <SUITE FILE_PATH="coverage/PythonProject$ml.coverage" NAME="ml Coverage Results" MODIFIED="1785359558301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$openai.coverage" NAME="openai Coverage Results" MODIFIED="1785438403658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rag" />
     <SUITE FILE_PATH="coverage/PythonProject$ask__1_.coverage" NAME="ask (1) Coverage Results" MODIFIED="1785439542513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rag" />
-    <SUITE FILE_PATH="coverage/PythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1785792951486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rag" />
+    <SUITE FILE_PATH="coverage/PythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1786132918458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rag" />
     <SUITE FILE_PATH="coverage/PythonProject$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1785535473107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mynumpy" />
   </component>
 </project>
