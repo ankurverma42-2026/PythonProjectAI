@@ -1,6 +1,4 @@
 import os
-from fileinput import filename
-
 
 class FileHandling:
     def __init__(self,f_name):

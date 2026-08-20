@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="630c7134-c9aa-470c-a338-671008356f95" name="Changes" comment="RAG inital ingestion">
+    <list default="true" id="630c7134-c9aa-470c-a338-671008356f95" name="Changes" comment="Using Ollama instead of openAI">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/playground.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/playground.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rag/chromadbdir/chroma.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/rag/chromadbdir/chroma.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rag/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/rag/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ragusingLangchain/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ragusingLangchain/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/filehandling.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/filehandling.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,69 +37,69 @@
     &quot;assignee&quot;: &quot;ankurverma42-2026&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ankurverma42-2026/PythonProjectAI.git",
-    "accountId": "11f19ba6-a07d-4215-9aac-89f8d8d7bcb7"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ankurverma42-2026/PythonProjectAI.git&quot;,
+    &quot;accountId&quot;: &quot;11f19ba6-a07d-4215-9aac-89f8d8d7bcb7&quot;
   }
-}]]></component>
+}</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000000000000488" />
-      <entry key="S2" value="1.0005783571847855" />
-      <entry key="S5" value="1.0850161205074245" />
-      <entry key="S10" value="1.491895528057198" />
-      <entry key="S30" value="2.7407080112787527" />
-      <entry key="S60" value="3.9728445037512596" />
-      <entry key="M2" value="6.784544058841194" />
-      <entry key="M5" value="15.766191065071448" />
-      <entry key="M10" value="25.692155276194256" />
-      <entry key="M15" value="33.05006101948196" />
-      <entry key="M30" value="50.05092560618205" />
-      <entry key="H1" value="73.84889825248774" />
-      <entry key="H2" value="100.39549861848835" />
-      <entry key="H4" value="122.92126273620187" />
-      <entry key="D1" value="179.93905172956423" />
-      <entry key="W1" value="1016.4608493978291" />
+      <entry key="MS100" value="5.539179728617451E-88" />
+      <entry key="MS500" value="3.537442498042946E-18" />
+      <entry key="S2" value="4.5218844896626315E-5" />
+      <entry key="S5" value="0.027978977687072217" />
+      <entry key="S10" value="0.34161768342573545" />
+      <entry key="S30" value="2.5562478552261885" />
+      <entry key="S60" value="5.350236722128393" />
+      <entry key="M2" value="9.294515696963384" />
+      <entry key="M5" value="15.757233044864742" />
+      <entry key="M10" value="22.63178847122331" />
+      <entry key="M15" value="29.345547643050836" />
+      <entry key="M30" value="47.79690102643035" />
+      <entry key="H1" value="71.45601260682847" />
+      <entry key="H2" value="93.15295826291734" />
+      <entry key="H4" value="120.63134048569543" />
+      <entry key="D1" value="398.51325630727194" />
+      <entry key="W1" value="1265.0334056940599" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="5.124405810268577E-92" />
-      <entry key="S2" value="1.504564736451269E-23" />
-      <entry key="S5" value="7.429581506261935E-10" />
-      <entry key="S10" value="2.7257260274281555E-5" />
-      <entry key="S30" value="0.030502062490967635" />
-      <entry key="S60" value="0.2380216262118383" />
-      <entry key="M2" value="1.2940353903457733" />
-      <entry key="M5" value="5.1438323959177055" />
-      <entry key="M10" value="8.943156571170196" />
-      <entry key="M15" value="11.229505714903777" />
-      <entry key="M30" value="15.354041808855772" />
-      <entry key="H1" value="20.99657311778753" />
-      <entry key="H2" value="28.256060806046932" />
-      <entry key="H4" value="34.87079136651685" />
-      <entry key="D1" value="46.38651021965955" />
-      <entry key="W1" value="178.42347194859875" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000107002201128" />
+      <entry key="S2" value="1.0572508831970984" />
+      <entry key="S5" value="1.3385329614087054" />
+      <entry key="S10" value="1.7143913589008988" />
+      <entry key="S30" value="2.5586256421054996" />
+      <entry key="S60" value="3.169452886325705" />
+      <entry key="M2" value="3.8123963117756716" />
+      <entry key="M5" value="5.18393475063524" />
+      <entry key="M10" value="7.553265724093376" />
+      <entry key="M15" value="9.906097523631741" />
+      <entry key="M30" value="15.290258709544691" />
+      <entry key="H1" value="20.68680147597755" />
+      <entry key="H2" value="24.734287855175683" />
+      <entry key="H4" value="28.569368760493628" />
+      <entry key="D1" value="65.84891248794393" />
+      <entry key="W1" value="207.6739903635549" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9265880618903709" />
-      <entry key="MS500" value="0.9848664428955984" />
-      <entry key="S2" value="0.9967207411279005" />
-      <entry key="S5" value="1.0755946479630205" />
-      <entry key="S10" value="1.4623050464730958" />
-      <entry key="S30" value="2.732646568809576" />
-      <entry key="S60" value="4.174268747926828" />
-      <entry key="M2" value="8.01314117540426" />
-      <entry key="M5" value="20.797929072474947" />
-      <entry key="M10" value="34.535653217227335" />
-      <entry key="M15" value="44.19712951538841" />
-      <entry key="M30" value="65.35144905150382" />
-      <entry key="H1" value="94.81254855167124" />
-      <entry key="H2" value="128.6318983549292" />
-      <entry key="H4" value="157.78088647631182" />
-      <entry key="D1" value="226.32325845322552" />
-      <entry key="W1" value="1194.8830027826764" />
+      <entry key="MS100" value="0.03212855708300207" />
+      <entry key="MS500" value="0.5027811135439975" />
+      <entry key="S2" value="0.8722728471681115" />
+      <entry key="S5" value="1.2241928834416111" />
+      <entry key="S10" value="1.9284117309498208" />
+      <entry key="S30" value="5.004197199185447" />
+      <entry key="S60" value="8.431088811259611" />
+      <entry key="M2" value="13.040831818881768" />
+      <entry key="M5" value="20.89435471588093" />
+      <entry key="M10" value="30.14594541767446" />
+      <entry key="M15" value="39.215637870699574" />
+      <entry key="M30" value="63.05659737955955" />
+      <entry key="H1" value="92.11988664306413" />
+      <entry key="H2" value="117.87242777799197" />
+      <entry key="H4" value="149.19178340495162" />
+      <entry key="D1" value="464.35880189764003" />
+      <entry key="W1" value="1472.7058775930946" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -112,43 +111,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.ask (1).executor": "Run",
-    "Python.foundation.executor": "Run",
-    "Python.ingest.executor": "Run",
-    "Python.main (1).executor": "Run",
-    "Python.main (2).executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.ml (1).executor": "Run",
-    "Python.ml.executor": "Run",
-    "Python.openai.executor": "Run",
-    "Python.robodog.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.ask (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.foundation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ingest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ml (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.ml.executor&quot;: &quot;Run&quot;,
+    &quot;Python.openai.executor&quot;: &quot;Run&quot;,
+    &quot;Python.robodog.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\verma\PycharmProjects\PythonProject\utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.main (2)">
     <configuration name="foundation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
@@ -301,8 +300,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
         <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.foundation" />
         <item itemvalue="Python.robodog" />
         <item itemvalue="Python.main (1)" />
@@ -324,7 +323,8 @@
       <option name="presentableId" value="Default" />
       <updated>1785273053190</updated>
       <workItem from="1785273100659" duration="54566000" />
-      <workItem from="1785439527482" duration="53824000" />
+      <workItem from="1785439527482" duration="70508000" />
+      <workItem from="1786726900629" duration="26881000" />
     </task>
     <task id="LOCAL-00001" summary="default code">
       <option name="closed" value="true" />
@@ -550,7 +550,15 @@
       <option name="project" value="LOCAL" />
       <updated>1786122189431</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Using Ollama instead of openAI">
+      <option name="closed" value="true" />
+      <created>1786133263479</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1786133263479</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -585,18 +593,19 @@
     <MESSAGE value="7-29" />
     <MESSAGE value="7-29 including package for rag" />
     <MESSAGE value="RAG inital ingestion" />
-    <option name="LAST_COMMIT_MESSAGE" value="RAG inital ingestion" />
+    <MESSAGE value="Using Ollama instead of openAI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Using Ollama instead of openAI" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonProject$ingest.coverage" NAME="ingest Coverage Results" MODIFIED="1785443130894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rag" />
     <SUITE FILE_PATH="coverage/PythonProject$robodog.coverage" NAME="robodog Coverage Results" MODIFIED="1785618249833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonEssentials_pluralsight" />
-    <SUITE FILE_PATH="coverage/PythonProject$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1786130195791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ragusingLangchain" />
+    <SUITE FILE_PATH="coverage/PythonProject$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1787168555144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ragusingLangchain" />
     <SUITE FILE_PATH="coverage/PythonProject$ml__1_.coverage" NAME="ml (1) Coverage Results" MODIFIED="1785527533436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/PythonProject$foundation.coverage" NAME="foundation Coverage Results" MODIFIED="1785777585170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonEssentials_pluralsight" />
     <SUITE FILE_PATH="coverage/PythonProject$ml.coverage" NAME="ml Coverage Results" MODIFIED="1785359558301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$openai.coverage" NAME="openai Coverage Results" MODIFIED="1785438403658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rag" />
     <SUITE FILE_PATH="coverage/PythonProject$ask__1_.coverage" NAME="ask (1) Coverage Results" MODIFIED="1785439542513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rag" />
-    <SUITE FILE_PATH="coverage/PythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1786132918458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rag" />
+    <SUITE FILE_PATH="coverage/PythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1786132987403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rag" />
     <SUITE FILE_PATH="coverage/PythonProject$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1785535473107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mynumpy" />
   </component>
 </project>
