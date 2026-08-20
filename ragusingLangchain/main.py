@@ -10,6 +10,7 @@ api_key = os.getenv("OPENAI_API_KEY")
 def main():
     llm = ChatOllama(model="llama3.2", temperature=0.1)
 
+
     #prompt = ChatPromptTemplate.from_template("Answer precisely. Langchain is ...")
     question="What is RAG?"
     prompt=ChatPromptTemplate.from_messages(
